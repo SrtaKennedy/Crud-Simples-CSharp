@@ -15,11 +15,9 @@ O aplicativo oferece um menu interativo com as seguintes opções:
 5. **Sair**: Encerra a aplicação.
 
 ### 📂 Estrutura do Projeto
-- 1. O projeto é composto por duas partes principais:
-
-- 1. `Tarefa.cs`: Uma classe que define o modelo de dados para uma tarefa. Possui as - 1. propriedades Id, Titulo, Descricao e Status.
-
-- 1. `Program.cs`: Contém a lógica principal da aplicação, incluindo o menu de navegação e a implementação das operações de CRUD. Ele utiliza uma List<Tarefa> estática para armazenar os dados.
+O projeto é composto por duas partes principais:
+- `Tarefa.cs`: Uma classe que define o modelo de dados para uma tarefa. Possui as - 1. propriedades `Id`, `Titulo`, `Descricao` e `Status`.
+-  `Program.cs`: Contém a lógica principal da aplicação, incluindo o menu de navegação e a implementação das operações de CRUD. Ele utiliza uma `List<Tarefa>` estática para armazenar os dados.
 
 ### 💻 Como Executar
 - Para rodar este projeto, você precisará do .NET SDK instalado.
