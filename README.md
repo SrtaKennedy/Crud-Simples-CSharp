@@ -33,10 +33,10 @@ dotnet run
 ```
 
 ### 💡 Próximos Passos e Possíveis Melhorias
-- **Persistência de Dados**: Atualmente, as tarefas são perdidas ao fechar o programa. Uma melhoria seria salvar os dados em um arquivo de texto, JSON, ou até mesmo conectar a um banco de dados, como o SQL Server, que você já conhece.
+- **Persistência de Dados**: Atualmente, as tarefas são perdidas ao fechar o programa. Uma melhoria seria salvar os dados em um arquivo de texto, JSON, ou até mesmo conectar a um banco de dados, como o SQL Server ou MySQL.
 
 - **Melhora do Modelo**: O status da tarefa poderia ser um enum em vez de uma string para garantir que apenas valores válidos sejam usados (por exemplo, Pendente, EmAndamento, Concluida).
 
 - **Validação de Entrada**: Adicionar validações mais robustas para garantir que as entradas do usuário estejam no formato esperado.
 
-- **Refatoração**: Separar as operações de CRUD em uma classe dedicada (TarefaService, por exemplo) seguiria um padrão mais profissional e modular.
+- **Refatoração**: Separar as operações de CRUD em uma classe dedicada (TarefaService, por exemplo) seguindo um padrão mais profissional e modular.
